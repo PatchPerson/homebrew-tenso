@@ -9,6 +9,8 @@ cask "tenso" do
 
   depends_on arch: :arm64
 
+  auto_updates true
+
   app "Tenso.app"
 
   zap trash: [
