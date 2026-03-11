@@ -11,7 +11,7 @@ cask "tenso" do
 
   auto_updates true
 
-  app "Tenso.app"
+  app "Tenso.app", no_quarantine: true
 
   zap trash: [
     "~/Library/Application Support/com.tenso.desktop",
