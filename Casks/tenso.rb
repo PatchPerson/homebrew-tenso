@@ -1,6 +1,6 @@
 cask "tenso" do
-  version "0.4.3"
-  sha256 "b49328a56af13f8ac05983ab3bce43a55c09dd816f320cd95ec625744c4b3dcd"
+  version "0.4.4"
+  sha256 "7dee8768684b1f048941c92273d0a5c1186387a9a88249b6de5ae21e07778c85"
 
   url "https://github.com/PatchPerson/Tenso/releases/download/v#{version}/Tenso_#{version}_aarch64.dmg"
   name "Tenso"
